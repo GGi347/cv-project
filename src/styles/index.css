@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+   
+}
+
+.form-container{
+    margin: 16px 4%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 24px;  
+}
+
+.form-col{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.form-col > input{
+    width: 100%;
+    height: 24px;
+    padding: 6px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #d9dde0;
+    transition: background-color .20s ease-in-out;
+}
+
+.form-col > input:focus{
+   background-color: white;
+}
+
+.form-col > label{
+    font-size: 16px;    
+    color: rgb(67, 85, 118);
+}
+
+.review-container{
+    height: 100vh;
+    background-color: rgb(163, 163, 211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cv-template{
+    background-color: white;
+    width: 460px;
+    height: 620px;
+    padding: 16px;
+}
+
+.cv-name{
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.cv-title{
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.basic-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 16px;
+   
+}
+
+.basic-info > p{
+    margin: 0;
+    font-size: 12px;
+}
