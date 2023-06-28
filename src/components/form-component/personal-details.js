@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import '../../styles/personalDetails.css'
 
 class PersonalDetails extends Component{
     render() {
         const personalDetails = this.props.personalDetails;
         return(
             <form>
-                <h1>Personal Details</h1>
+                <h1 className='form-header'>Personal Details</h1>
                 <div className='form-content'>
                     <div className='form-col'>
                         <label>First Name</label>
